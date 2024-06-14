@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Application</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <script src="https://kit.fontawesome.com/ad64b99878.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-cont">
+        <h1 class="main-head">
+            Movie Review
+        </h1>
+        <div class="input-cont">
+            <label id="movie" for="movie-name" class="label">Movie Name: </label>
+            <input id="movie-name" class="movie-input" type="text" placeholder="Enter the Movie name"/>
+            <label id="review" for="review-txt" class="label">Review: </label>
+            <textarea id="review-txt" class="review-txt" rows="6" placeholder="Enter your own review on movie"></textarea> 
+            <div class="btn-cont">
+                <button class="btn add" id="add-btn">Add</button>
+                <button class="btn save" id="save-btn">Save</button>
+                <button class="btn clear" id="clear-btn">Clear All</button>
+            </div>
+        </div>
+        <ul class="list-cont" id="movies-list"></ul>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

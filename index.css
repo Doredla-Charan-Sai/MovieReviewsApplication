@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(216, 247, 247);
+}
+.main-cont{
+    padding: 30px;
+}
+.main-head{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(0, 119, 255);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input-cont{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(66, 68, 70);
+    font-size: 12px;
+}
+.movie-input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    color: rgb(21, 22, 22);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.review-txt{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    color: rgb(21, 22, 22);
+    font-size: 14px;
+    width: 100%;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn{
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    height: 36px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+}
+.add{
+    background-color: rgb(60, 67, 158);
+}
+.save{
+    background-color: rgb(86, 181, 109);
+}
+.clear{
+    background-color: rgb(239, 11, 22);
+}
+.list-cont{
+    padding: 0px;
+    list-style: none;
+}
+.list-element{
+    border-radius: 10px;;
+    padding: 20px;
+    background-color: rgba(239, 236, 233, 0.735);
+    margin-bottom: 15px;
+}
+.movie-head{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.review-para{
+    font-family: 'Roboto';
+    color: black;
+    font-size: 15px;
+}
+.delete-icon-cont{
+    width: 100%;
+    text-align: right;
+}
+.delete{
+    width: 60px;
+}
